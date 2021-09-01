@@ -1,0 +1,94 @@
+.accordion {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-left: 1px dashed #D9D9D9;
+    outline: none;
+    transition: 0.4s;
+    display: block;
+    font-family: Source Sans Pro, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.accordionHidden:not(.labelHiddenButton) {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.btnSelect {
+    position: absolute;
+    left: 20px;
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.labelHiddenButtonDisabled {
+    margin-right: 4px;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    border: none;
+    background: url("assets/vector.png") no-repeat center;
+}
+
+.labelHiddenButton {
+    margin-right: 4px;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    border: none;
+    background: url("assets/vector.png") no-repeat center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.btnSelectDisabled {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 20px;
+    background: url("assets/Group.png") no-repeat center;
+    border-radius: 4px;
+    border: none;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.body {
+    padding: 20px;
+}
+
+.btnCategory {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 20px;
+    background-color: darkgray;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
+
