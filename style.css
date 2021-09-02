@@ -39,7 +39,7 @@
     height: 10px;
     position: relative;
     border: none;
-    background: url("assets/vector.png") no-repeat center;
+    background: url("assets/Vector.png") no-repeat center;
 }
 
 .labelHiddenButton {
@@ -48,7 +48,7 @@
     height: 10px;
     position: relative;
     border: none;
-    background: url("assets/vector.png") no-repeat center;
+    background: url("assets/Vector.png") no-repeat center;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
